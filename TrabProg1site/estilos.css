@@ -1,0 +1,200 @@
+
+body {
+    background-color:white;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 25px;
+}
+
+h2, h3, h4 ,h5{
+    font-family: arial;
+    font-size: 14px;
+}
+
+a {
+    font-family: arial;
+    text-align: left;
+    font-size: 15px;
+}
+
+ul.menu li {
+    font-family: arial;
+    position: relative;
+    border: 1px solid gray;
+    background-color: #8bdd98;
+    padding: 10px;
+    margin: 10px;
+    list-style-image: url(icone.png);
+}
+
+ul.opcoes li {
+    font-family: arial;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block; 
+    position: relative;
+    left: 65%;
+    width: 10%;
+    background-color: #8bdd98;
+}
+
+#quadro1 {
+    position: relative;
+    left: 10%;
+    top: 10%; 
+    width: 80%;
+    height:800px;
+    background-color: white;
+}
+
+#quadro2 {
+    position: relative;
+    text-align: center;
+    top: 0%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#quadro3 {
+    position: relative;
+    left: 0px;
+}
+
+#quadro4 {
+    position: relative;
+    left: 0px;
+    width: 30%;
+    color: black;
+}
+
+#quadro5 {
+    position: absolute;
+    left: 35%;
+    top: 0px;
+    width: 60%;
+}
+
+#pesquisa {
+    position: absolute;
+    left: 35%;
+    top: 0px;
+    width: 90px;
+}
+
+#botao_filtro {
+    font-family: arial;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    left: 400%;
+    /*display: inline-block; */
+    position: relative;
+    width: 60%;
+    background-color: #8bdd98;
+}
+
+#botao_inserir {
+    font-family: arial;
+    position: absolute;
+    float: left;
+    top: 130%;
+    background-color: #dbdd80;
+}
+
+#botao_atualizar {
+    font-family: arial;
+    position: absolute;
+    top: 130%;
+    left: 70%;
+    background-color: #dbdd80;
+}
+
+#botao_excluir {
+    font-family: arial;
+    position: absolute;
+    left: 160%;
+    top: 130%;
+    background-color: #dbdd80;
+}
+
+#paragrafo{
+    font-family: arial;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+#entrar {
+    text-align: center;
+}
+
+#botoes-entrar {
+    position: absolute;
+    text-align: center;
+    left: 17%;
+} 
+
+#botao_geral {
+    font-family: arial;
+    background-color: #dbdd80;
+}
+
+#quadro_entrar {
+    font-family: arial;
+    position: absolute;
+    left: 32%;
+    top: 65%;
+    width: 65%;
+    text-align: left;
+    border-color: #dbdd80;
+    height: 50%;
+}
+
+#sobre_study {
+    position: absolute;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#paragrafo_diferente {
+    color: forestgreen;
+}
+
+#quadro_polos {
+    position: relative;
+    left: 25%;
+    width: 60%;
+}
+
+#quadro_faleconosco{
+    position: relative;
+    left: 20%;
+    width: 60%;
+}
+
+#tabela{
+    position: absolute;
+    left: 35%;
+    border: 1px solid #dbdd80;
+    width: 60%;
+    
+}
+
+#formulario {
+    position: absolute;
+    left: 35%;
+    top: 0px;
+}
+
+#cabecalho_pesquisa {
+    font-family: arial;
+    border: 0px;
+    background-color: rgb(234, 248, 206);
+}
+
+#linha_cinza{
+    background-color: lightgray;
+}

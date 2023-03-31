@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inscrição e Atualização</title>
+</head>
+<body>
+    <ul class="opcoes" >
+        <li><a href="acessogov.html">ENTRAR</a></li>
+        <li><a href="cadastrese.html">CADASTRAR</a></li>
+    </ul>
+    <div id="quadro1">
+        <div id="quadro2">
+            <img src="banner.png" width="1000px" alt="logo do curso STUDY com alunos olhando um livro."/>
+        </div>
+        <div id="quadro3">
+            <div id="quadro4">
+                <ul class="menu">
+                    <li><a href="index.html">SOBRE A STUDY</a></li>
+                    <li><a href="pesquisa.html">PESQUISA</a></li>
+                    <li><a href="cursos.html">CURSOS</a></li>
+                    <li><a href="polos.html">POLOS</a></li>
+                    <li><a href="faleconosco.html">FALE CONOSCO</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <form action="cadastro" method="get" autocomplete="on">
+            <div id="quadro_entrar">
+                <fieldset>
+                    <legend>Formulário de inscrição</legend>
+                    <p>
+                        <label for="iname">Nome</label>
+                        <input type="text" name="nome" id="inome" minlength="5" maxlength="30" required>
+                    </p>
+                    <p>
+                        <label for="idate">Data de nascimento</label>
+                        <input type="date" name="date" id="idate" autocomplete="date" required placeholder="xx/xx/xxxx">
+                    </p>
+                    <p>
+                        <label for="iestado">Estado de Residência</label>
+                        <input type="estado" name="estado" id="iestado" autocomplete="estado" required>
+                    </p>
+                    <p>
+                        <label for="iescolaridade">Escolaridade</label>
+                        <select name="escolaridade" id="iescolaridade">
+
+                            <option value="" selected>---Escolha---</option>
+                            <optgroup label="Ensino Fundamental">
+                                <option value="completo">Completo</option>
+                                <option value="incompleto">Incompleto</option>
+                                <option value="cursando">Cursando</option>
+                            </optgroup>
+                            <optgroup label="Ensino Médio">
+                                <option value="completo">Completo</option>
+                                <option value="incompleto">Incompleto</option>
+                                <option value="cursando">Cursando</option>
+                            </optgroup>
+                            <optgroup label="Ensino Superior">
+                                <option value="completo">Completo</option>
+                                <option value="incompleto">Incompleto</option>
+                                <option value="cursando">Cursando</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="Selecione seu curso:">Selecione seu curso:</label>
+                        <div>
+                            <input type="radio" name="opcao" value="Administração">
+                            <label for="Administração">Administração</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="opcao" value="Informática Básica">
+                            <label for="Informática Básica">Informática Básica</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="opcao" value="Libras Básico">
+                            <label for="Libras Básico">Libras Básico</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="opcao" value="Meio Ambiente">
+                            <label for="Meio Ambiente">Meio Ambiente</label>
+                        </div>
+                    </p>
+                    <p>
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="itel">Telefone</label>
+                        <input type="tel" name="tel" id="itel" autocomplete="tel" required placeholder="(xx)xxxxx-xxxx">
+                    </p>
+                    <p>
+                        <a href="processamento.html"><input id="botao_geral" type="submit" value="Enviar"></a>
+                        <input id="botao_geral" type="reset" value="Limpar">
+                    </p>
+                </fieldset>
+                <br><br><a  href="index.html">Voltar para primeira página</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
